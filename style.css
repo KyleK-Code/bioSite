@@ -1,0 +1,76 @@
+:root {
+  --neon-yellow: #D6F700;
+  --black: #000000;
+  --dark-gray: #1C1C1C;
+  --white: #FFFFFF;
+}
+
+/* Global */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--dark-gray);
+  color: var(--white);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
+  color: var(--neon-yellow);
+  margin: 0.5em 0;
+}
+
+/* Nav */
+nav {
+  background-color: var(--neon-yellow);
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: var(--black);
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+nav a:hover {
+  color: var(--neon-yellow);
+  background-color: var(--black);
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+
+/* Buttons */
+.button, .back-link {
+  background-color: var(--neon-yellow);
+  color: var(--black);
+  padding: 8px 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.button:hover, .back-link:hover {
+  background-color: var(--black);
+  color: var(--neon-yellow);
+}
+
+/* Images */
+img {
+  max-width: 300px;
+  border: 2px solid var(--black);
+  border-radius: 8px;
+  margin: 10px 0;
+  display: block;
+}
+
+/* Footer */
+footer {
+  background-color: var(--black);
+  color: var(--white);
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
